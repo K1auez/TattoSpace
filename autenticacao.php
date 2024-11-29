@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="autenticacao.css">
+    <link rel="stylesheet" href="./assets/css/autenticacao.css">
     <title>KPROG</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
 
 
         <div class="cadastro">
-        <form action="./back-end/cadastro_processo.php" method="post">
+        <form action="./assets/back-end/cadastro_processo.php" method="post">
             <span>Cadastre-se abaixo</span>
             <input type="text" name="nome" placeholder="Nome de usuário">
             <input type="email" name="email" placeholder="Endereço de email">

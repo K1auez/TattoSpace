@@ -26,7 +26,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
             echo "<p>Preço: R$ $produto_preco</p>";
             echo "<p>Quantidade: $quantidade</p>";
 
-            echo "<form method='POST' action='./back-end/remover_carrinho.php'>";
+            echo "<form method='POST' action='./assets/back-end/remover_carrinho.php'>";
             echo "<input type='hidden' name='carrinho_id' value='$carrinho_id'>";
             echo "<button type='submit'>Remover</button>";
             echo "</form>";

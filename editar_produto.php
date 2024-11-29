@@ -34,7 +34,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true && $_SESSION[
 </head>
 <body>
     <h2>Editar Produto</h2>
-    <form method="POST" action="./back-end/editar_produto_processo.php" enctype="multipart/form-data">
+    <form method="POST" action="./assets/back-end/editar_produto_processo.php" enctype="multipart/form-data">
         <input type="hidden" name="produto_id" value="<?php echo $produto_id; ?>">
         <label for="produto_nome">Nome do Produto:</label>
         <input type="text" id="produto_nome" name="produto_nome" value="<?php echo $produto_nome; ?>" required><br>

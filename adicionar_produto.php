@@ -15,7 +15,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true && $_SESSION[
 </head>
 <body>
     <h2>Adicionar Novo Produto</h2>
-    <form method="POST" action="./back-end/adicionar_produto_processo.php" enctype="multipart/form-data">
+    <form method="POST" action="./assets/back-end/adicionar_produto_processo.php" enctype="multipart/form-data">
         <label for="produto_nome">Nome do Produto:</label>
         <input type="text" id="produto_nome" name="produto_nome" required><br>
 
